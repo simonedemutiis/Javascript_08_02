@@ -10,7 +10,7 @@ function addExpenses() {
   var exp1 = document.getElementById("addExp").value;
   var exp2 = document.getElementById("addBal").value;
 
-  tot = exp1 - exp2;
+  tot = exp2 - exp1;
 
   addExpenses = document.getElementById("addBal").value;
   document.getElementById("exp").innerHTML = addExpenses;

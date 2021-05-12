@@ -3,11 +3,9 @@
   height: 200px;
   width: 500px;
 }
-
 button {
   margin-top: 20px;
 }
-
 .uscite {
   border: solid 3px red;
   height: 200px;
@@ -16,7 +14,8 @@ button {
 }
 .resoconto {
   display: flex;
-  margin: 200px;
+  margin-left: 300px;
+  margin-top: 50px;
 }
 .budget {
   margin: 30px;

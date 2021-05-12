@@ -15,6 +15,7 @@ button {
   background-color: #e4e4e4;
 }
 .resoconto {
+  justify-content: center;
   display: flex;
   margin-left: 300px;
   margin-top: 50px;
@@ -31,6 +32,7 @@ button {
 }
 #expense2 {
   font-size: 38px;
+  color: red;
 }
 #bal,
 #bud {
@@ -55,4 +57,23 @@ button {
 #addExp,
 #addBal {
   margin-left: 10px;
+}
+
+#expense1 {
+  font-size: 38px;
+  color: red;
+}
+#divA,
+#divB {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font: 30px;
+}
+#enter {
+  border: solid 2px green;
+}
+#addBal {
+  border: solid 2px blue;
+}
+#addExp {
+  border: solid 2px red;
 }
